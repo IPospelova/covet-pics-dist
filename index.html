@@ -44,7 +44,7 @@
 
       <covet-pics-widget gallery-embed-id="1101" environment="staging"></covet-pics-widget>
     </div>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
       ;(function () {
         var scriptElmModule = document.createElement("script")
         scriptElmModule.setAttribute("type", "module")
@@ -54,16 +54,18 @@
           // "https://d4ef-89-38-224-123.ngrok.io/build/covet-pics-widget.esm.js"
           // "https://0451-79-129-167-10.ngrok-free.app/build/covet-pics-widget.esm.js"
           // "https://a769-87-116-133-144.ngrok-free.app/build/covet-pics-widget.esm.js"
-          "https://irine-dev.covet.pics/build/covet-pics-widget.esm.js"
+          // "https://irine-dev.covet.pics/build/covet-pics-widget.esm.js"
+          "covet-pics-widget/covet-pics-widget.esm.js"
         console.log("scriptElmModule: ", scriptElmModule)
         document.querySelector("head").appendChild(scriptElmModule)
         var scriptElmPolyfill = document.createElement("script")
         scriptElmPolyfill.setAttribute("nomodule", "")
         scriptElmPolyfill.src =
-          "http://localhost:3333/build/covet-pics-widget.js"
+          // "http://localhost:3333/build/covet-pics-widget.js"
+          "covet-pics-widget/covet-pics-widget.esm.js"
         document.querySelector("head").appendChild(scriptElmPolyfill)
       })()
-    </script> -->
+    </script>
 
     <!-- Optimized loading JS Start -->
     <script>
