@@ -1,0 +1,1 @@
+System.register([],(function(n){"use strict";return{execute:function(){n("s",r);function r(n){var r=n.activeIndex;var t=n.params.slidesPerView;var e=Array.from(n.slides);e.forEach((function(n,e){n.setAttribute("tabindex","".concat(r-1<e&&e<r+t?0:-1));n.setAttribute("aria-hidden","".concat(!(r-1<e&&e<r+t)));return n}))}}}}));

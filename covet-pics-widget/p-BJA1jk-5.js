@@ -1,4 +1,0 @@
-/*!
- * Copyright by Space Squirrel Ltd.
- */
-import{c as e}from"./p-B68hw7d9.js";const t=e({name:"sort",initialState:{selected:"",options:[{name:"All",value:""},{name:"Most recent",value:"most_recent"},{name:"Oldest",value:"oldest"},{name:"With review",value:"with_review"},{name:"Without review",value:"without_review"}]},reducers:{sortUpdated:(e,t)=>{e.selected=t.payload}}}),{sortUpdated:a}=t.actions;var s=t.reducer;const o=e({name:"modals",initialState:{uploadOpen:!1,popupOpen:!1},reducers:{setUploadOpen:(e,t)=>{e.uploadOpen=t.payload},setPopupOpen:(e,t)=>{e.popupOpen=t.payload}}}),{setUploadOpen:p,setPopupOpen:n}=o.actions;var r=o.reducer;export{a,n as b,p as c,r as m,s}
