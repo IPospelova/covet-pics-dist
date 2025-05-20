@@ -1,1 +1,4 @@
+/*!
+ * Copyright by Space Squirrel Ltd.
+ */
 const t=function(){document.querySelectorAll(".covet-pics-gallery").forEach((t=>{const e=document.createElement("covet-pics-widget"),d=t.getAttribute("data-id"),o=t.getAttribute("data-shop"),c=t.getAttribute("data-product");if(null!==d)e.setAttribute("gallery-embed-id",d);else{if(null===o)return!0;e.setAttribute("shop",o),null!==c&&e.setAttribute("data-product",c)}let l,a;for(l=0;l<t.attributes.length;++l)if(a=t.attributes[l],a.name.startsWith("widget")){const t=a.name.replace(/^widget\-/,"");e.setAttribute(t,a.value)}t.appendChild(e)}))};export{t as g}
